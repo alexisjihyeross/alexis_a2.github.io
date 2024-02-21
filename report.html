@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vis & Society Assignment 2</title>
+	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 2</small>
+			Exploratory Data Analysis
+		</h1>
+
+		<p>
+			<strong>Alexis Ross</strong> — <em>alexisro@mit.edu</em>
+		</p>
+	</header>
+	<main>
+		<section>
+			<h2>Subtheme: [ENTER SUBTHEME]</h2>
+
+			<h3>Overall Analysis Questions</h3>
+			<ol>
+				<li>QUESTION_1</li>
+				<li>QUESTION_2</li>
+				<li>QUESTION_3</li>
+				<li>...</li>
+			</ol>
+		</section>
+
+		<section>
+			<h2>Discoveries & Insights</h2>
+
+			<figure>
+				<!-- set size -->
+				<img src="images/img1.svg" alt="" width="700"/>
+				<figcaption>
+				This bar chart shows the average selling price of units sold by total number of rooms. The color indicates the interior square footage of the unit. We observe, as expected, that units with more rooms tend to have higher average prices, with two main exceptions. The first is that units with 19 rooms have lower average prices than units with fewer rooms. Looking at the data that makes up this bar, we see that there is only one unit with 19 total rooms, and as shown by the color of the bar, it has a lower interior square footage than the average unit with 17 or 18 rooms. Therefore, we can conclude that the lower price is due to the smaller size of this particular unit. The second exception is that units with 0 total rooms have significantly higher average prices than all other units (as indicated by the bar size), as well as significantly higher interior square footage (as indicated by the bar color). This raises the question of what these units are, and why they are so expensive. We will explore this further in the next plot.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="images/img2.svg" alt="" width="700"/>
+				<figcaption>
+				This three-part visualization shows the <i>counts</i>, <i>average selling prices</i>, and <i>average interior square footage</i> for units by property type (residential/non-residential and their property usage), specifically for the subset of units with 0 total rooms. The residential vs. non-residential categories were manually labeled by looking at the property usage. This plot highlights several insights. First, we see that many of the units with 0 total rooms are non-residential. Second, we see that the average selling price of non-residential units is higher than that of residential units; non-residential banks, department stores have particularly high selling prices. Third, we see that the average interior square footage of non-residential units, particularly for farms and stadiums, is also higher than that of residential units. Together, these insights suggest that units with 0 total rooms tend to be non-residential, and that non-residential units tend to be larger and more expensive than residential units. This is consistent with our earlier observation that units with 0 total rooms have higher average prices and interior square footage than all other units. 
+				Given that this subtheme aims to investigate housing properties specifically, we choose to filter out non-residential units from our analysis in the next plot. 
+				<br><br>
+				Our fourth insight is that 4-8 and 9+ unit apartments make up a decent number of the units with 0 total rooms, suggesting that "0 total rooms" perhaps is used to indicate something special about the property, such as that the property has been developed for a specific purpose. While looking at the meta-data and associated <a href="https://www.mass.gov/files/documents/2016/08/wr/classificationcodebook.pdf">housing guide</a> did not clarify the meaning of 0 total rooms, we will plan to treat these property usage types (condominium vs. 4-8 unit apartments vs. 9+ unit apartments, etc.) and number of total rooms as categories to analyze in our future visualizations. <b>CONFIRM</b>
+				
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+
+			<figure>
+				<img src="IMAGE_FILENAME" alt="" />
+				<figcaption>
+				ENTER IMAGE CAPTION HERE.
+				</figcaption>
+			</figure>
+		</section>
+
+		<section>
+			<h2>Summary</h2>
+
+			<p>WRITE FINAL SUMMARY HERE.</p>
+		</section>
+	</main>
+</body>
+</html>
